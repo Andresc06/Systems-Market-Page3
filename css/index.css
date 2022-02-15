@@ -172,7 +172,7 @@ h2 {
     }
 
     .team1, .team2 {
-      display: inline-block;
+      display: inline-block !important;
       height: 46vh;
       width: 49.2vw;
       padding-top: 20vh;

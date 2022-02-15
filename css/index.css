@@ -436,10 +436,11 @@ h2 {
 
   .carousel-item {
     height: 50vh;
+    font-size: 60% !important;
   }
 
   .ws {
-    height: 460px !important;
+    height: 500px !important;
   }
 
   .sub-soft {
@@ -452,6 +453,7 @@ h2 {
 
   .carousel-item {
     height: 60vh;
+    font-size: 60%;
   }
 
   .ws {
@@ -468,8 +470,9 @@ h2 {
     padding-top: 80px;
   }
 
-  .carousel-caption {
-    font-size: 30%;
+  .title-soft {
+    font-size: 20px !important;
+    margin-top: 80px;
   }
 
   .sub-soft {
@@ -477,8 +480,8 @@ h2 {
   }
 
   .navbar-brand {
-    font-size: 70% !important;
-    margin-top: 10px;
+    font-size: 60% !important;
+    margin-top: 15px;
   }
   
   .navbar-brand > i {
@@ -490,7 +493,7 @@ h2 {
   }
 
   .title-2 {
-    font-size: 200% !important;
+    font-size: 190% !important;
     margin: 45px !important;
   }
 
@@ -503,7 +506,7 @@ h2 {
   }
 
   .title-3 {
-    font-size: 190% !important;
+    font-size: 170% !important;
   }
 
   .card-text {
@@ -548,7 +551,14 @@ h2 {
     box-shadow: none;
   }
 
-
+  #apple-title, #asus-title, #lenovo-title, #hp-title {
+    font-size: 50px !important;
+  }  
+  
+  .container-fluid > .row > h2{
+    font-size: 22px !important;
+    text-shadow: 2px 2px 2px #000;
+  }
 
 }
 

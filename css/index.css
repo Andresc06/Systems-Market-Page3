@@ -1,0 +1,928 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.nav-link, .navbar-brand {
+    text-decoration: none;
+    text-align: center;
+    line-height: 0px;
+}
+
+.card-title {
+  font-family: "Teko";
+}
+
+.team {
+  text-decoration: none;
+}
+
+.nav-link {
+    margin-top: 20px;
+}
+
+.header{ 
+  background-color: #000;
+  width:100%; 
+  text-align: center;
+  position: 0;
+  z-index: 100;
+  font-family: 'Teko', sans-serif;
+  padding-bottom: 10px;
+}
+
+.team1, .team2 {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.team1 {
+  margin-left: 5px;
+}
+
+.team2 {
+  margin-left: 5px;
+}
+
+.container1 {
+  background-color: #000;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  font-size: 190% !important;
+}
+
+.header:hover {
+  transition: background-color;
+  transition-duration: 1s;
+  background-color: rgb(22, 22, 22);
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #C70039 !important;
+}
+
+
+.team1:before, .team2:before {
+  background-color: rgba(0,0,0,0.2);
+  content:'';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.team1:hover:before, .team2:hover:before {
+  transition: background-color;
+  transition-duration: 1s;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+#mac {
+  background: url(../img/mac.jpg) no-repeat center; background-size: cover;
+}
+
+#hp-com {
+  background: url(../img/hp.jpg) no-repeat center; background-size: cover;
+}
+
+#asus-com {
+  background: url(../img/asus.jpg) no-repeat center; background-size: cover;
+}
+
+#lenovo-com {
+  background: url(../img/lenovo.jpg) no-repeat center; background-size: cover;
+}
+
+#apple:hover{
+  transition: color;
+  transition-duration: 0.5s;
+  color: #515a5a;
+}
+
+#hp:hover{
+  transition: color;
+  transition-duration: 0.5s;
+  color:  #00244d;
+}
+
+#asus:hover{
+  transition: color;
+  transition-duration: 0.5s;
+  color:  #000;
+}
+
+#lenovo:hover{
+  transition: color;
+  transition-duration: 0.5s;
+  color: #C70039;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    margin-right: 5em;
+}
+
+#phone {
+    margin-top: -20px;
+    margin-right: 5px;
+}
+
+@media (min-width: 1600px){
+
+    .nav-link {
+    font-size: 190%;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding: 0;
+    }
+
+    .laptops {
+      height:100vh;
+    }
+
+    .apple-bottom {
+      height: 800px;
+    }
+    
+    .hp-bottom {
+      height: 800px;
+    }
+
+    .asus-bottom {
+      height: 800px;
+    }
+
+    .lenovo-bottom {
+      height: 800px;
+    }
+
+    .nav-link:hover {
+      transition: font-size;
+      transition-duration: 0.2s;
+      font-size: 210%;
+    }
+
+    .team1, .team2 {
+      display: inline-block !important;
+      height: 46vh;
+      width: 48.8vw;
+      padding-top: 20vh;
+    }
+
+    .progress {
+      width: 80%;
+      background-color: #aaa !important;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    .carousel-item {
+      height: 100vh;
+      min-height: 400px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-color: #000;
+      background-attachment: fixed; 
+    }
+
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .team1, .team2 {
+    display: inline-block;
+    height: 46vh;
+    width: 48.8vw;
+    padding-top: 20vh;
+  }
+
+  .nav-link {
+    font-size: 170%;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    padding: 0;
+  }
+
+  .nav-link:hover {
+    transition: font-size;
+    transition-duration: 0.2s;
+    font-size: 180%;
+  }
+
+  .laptops {
+    height:120vh;
+  }
+
+  .container-fluid > .row > h2 {
+    font-size: 220% !important;
+  }
+
+  .card-text {
+    font-size: 70%;
+  }
+
+  .carousel-item {
+    font-size: 80% !important;
+  }
+
+  .progress {
+    width: 80%;
+    background-color: #aaa !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .carousel-item {
+    height: 100vh;
+    min-height: 400px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+    background-attachment: fixed; 
+  }
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .team1, .team2 {
+    display: inline-block;
+    height: 46vh;
+    width: 49.2vw;
+    padding-top: 20vh;
+  }
+
+  .nav-link {
+    font-size: 140%;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    padding: 0;
+  }
+
+  .nav-link:hover {
+    transition: font-size;
+    transition-duration: 0.2s;
+    font-size: 150%;
+  }
+
+  #phone > a {
+    display: none;
+  }
+
+  .laptops {
+    height:120vh;
+  }
+
+  .container-fluid > .row > h2 {
+    font-size: 210% !important;
+  }
+
+  .title-3 {
+    font-size: 210% !important;
+  }
+
+  .card-text {
+    font-size: 60%;
+  }
+
+  .carousel-item {
+    font-size: 80% !important;
+  }
+
+  .card-title, .mt-2 > h3 {
+    font-size: 100%;
+  }
+
+  .progress {
+    width: 90%;
+    background-color: #aaa !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .carousel-item {
+    height: 100vh;
+    min-height: 400px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+    background-attachment: fixed; 
+  }
+  
+
+}
+
+@media (width: 810px) {
+  
+  
+  .carousel-item {
+      height: 40vh !important;
+  }
+
+  .ws {
+    height: 450px !important;
+  }
+
+  .carousel-caption {
+    font-size: 60% ;
+  }
+  
+  .sub-soft {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+  .team1, .team2 {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 45vh;
+  }
+
+  #hp-logo {
+
+    width: 90px !important;
+  }
+
+  #asus-logo, #lenovo-logo {
+
+    width: 180px !important;
+  }
+
+  #phone > a {
+    display: none;
+  }
+
+  .nav-link {
+    font-size: 140%;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    padding: 0;
+  }
+
+  .nav-link:hover {
+    transition: font-size;
+    transition-duration: 0.2s;
+    font-size: 150%;
+  }
+
+  .laptops {
+    height:120vh;
+  }
+
+  .container-fluid > .row > h2 {
+    font-size: 190% !important;
+  }
+
+  .title-3 {
+    font-size: 190% !important;
+  }
+
+  .card-text {
+    font-size: 50%;
+  }
+
+  .carousel-item {
+    font-size: 70% !important;
+  }
+
+  .card-title, .mt-2 > h3 {
+    font-size: 80%;
+  }
+
+  .col-md-7 > a > *, .col-md-7 > .mt-2{
+    font-size: 80%;
+  }
+
+  .progress {
+    width: 90%;
+    background-color: #aaa !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .carousel-item {
+    height: 100vh;
+    min-height: 400px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+    background-attachment: fixed; 
+  }
+  
+  
+}
+
+@media (min-width: 370px) and (max-width: 499px) {
+
+  .carousel-item {
+    height: 50vh;
+    font-size: 60% !important;
+  }
+
+  .ws {
+    height: 500px !important;
+  }
+
+  .sub-soft {
+    display: none;
+  }
+
+}
+
+@media (max-width: 369px) {
+
+  .carousel-item {
+    height: 60vh;
+    font-size: 60%;
+  }
+
+  .ws {
+    height: 480px !important;
+  }
+  
+}
+
+@media (max-width: 499px) {
+
+  .team1, .team2 {
+    height: 25vh;
+    width: 100vw;
+    padding-top: 80px;
+  }
+
+  .title-soft {
+    font-size: 20px !important;
+    margin-top: 90px;
+  }
+
+  .sub-soft {
+    display: none;
+  }
+
+  .navbar-brand {
+    font-size: 60% !important;
+    margin-top: 15px;
+  }
+  
+  .navbar-brand > i {
+    display: none;
+  }
+
+  .nav-link {
+    font-size: 140%;
+  }
+
+  .title-2 {
+    font-size: 190% !important;
+    margin: 45px !important;
+  }
+
+  .card {
+    margin-bottom: 20px !important;
+  }
+
+  .container-fluid > .row > h2 {
+    font-size: 170% !important;
+  }
+
+  .title-3 {
+    font-size: 170% !important;
+  }
+
+  .card-text {
+    font-size: 80%;
+  }
+
+  .fa-arrow-circle-down {
+    margin-left: -50px !important;
+  }
+
+  #hp-logo {
+
+    width: 90px !important;
+  }
+
+  #asus-logo, #lenovo-logo {
+
+    width: 180px !important;
+  }
+
+  .nav-contact > a {
+    display: block !important;
+    font-size: 35px !important;
+  }
+
+  .card-title, .mt-2 > h3 {
+    margin-left: 10px;
+    font-size: 90%;
+  }
+
+  .col-md-7 > a > *, .col-md-7 > .mt-2{
+    font-size: 80%;
+    margin-bottom: 5px !important;
+    margin-left: 20px;
+  }
+
+  .progress {
+    width: 80%;
+    margin-left: 10px ;
+    background-color: #aaa !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  #apple-title, #asus-title, #lenovo-title, #hp-title {
+    font-size: 50px !important;
+  }  
+  
+  .container-fluid > .row > h2{
+    font-size: 22px !important;
+    text-shadow: 2px 2px 2px #000;
+  }
+
+}
+
+
+
+.card {
+  border: 1px !important;
+}
+
+b {
+  font-size: 150%;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.hard-card {
+  border-radius: 25px !important;
+}
+
+
+.btn {
+  font-style: italic;
+  position: relative;
+  color: #fff !important;
+}
+
+.card:hover:before {
+  transition: background-color;
+  transition-duration: 0.5s;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.card:before {
+  background-color: rgba(0,0,0,0);
+  content:'';
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.title-2 {
+  margin: 100px auto;
+  font-size: 60px;
+  text-align: center;
+  color: #C70039;
+  font-weight: bold;
+  text-shadow: 2px 5px 2px #000;
+  font-family: "KoHo", serif;
+  background-color: #fff;
+  padding-bottom: 10px;
+  box-shadow: -10px -10px#C70039;
+}
+
+.laptops {
+  background: url(../img/laptops.jpg) no-repeat center; background-size: cover;
+  border-top: 3px solid black;
+  position: relative;
+}
+
+.apple {
+  background: url(../img/section-apple.jpg) no-repeat center; background-size: cover;
+}
+
+.hp {
+  background: url(../img/section-hp.jpg) no-repeat center; background-size: cover;
+}
+
+.asus {
+  background: url(../img/section-asus.jpg) no-repeat center; background-size: cover;
+}
+
+.lenovo {
+  background: url(../img/section-lenovo.jpg) no-repeat center; background-size: cover;
+}
+
+.accesories {
+  background: url(../img/section-accesories.jpg) no-repeat center; background-size: cover;
+}
+
+
+.carousel-item:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.title-soft {
+  font-size: 500%;
+  margin-bottom: 250px;
+}
+
+.sub-soft {
+  font-size: 150%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.btn-soft {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold !important;
+}
+
+.btn-avast {
+  margin-bottom: 20px;
+  margin-right: 15px;
+  font-style: normal;
+  font-weight: bold !important;
+  color: #000 !important;
+}
+
+.software {
+  height: 800px;
+  background-color: #000;
+}
+
+.section-brand {
+  position: relative;
+  height: 100vh;
+  border-top: 10px solid black;
+}
+
+.section-brand:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.section-brand:hover:before {
+  transition: background-color;
+  transition-duration: 0.5s;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+.row > h2{
+  color: #fff;
+  position: absolute;
+  font-family: "Teko", sans-serif;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 95%;
+  font-size: 50px !important;
+  text-shadow: 2px 2px 2px #000;
+}
+
+h2 > #apple-title {
+  font-size: 250%;
+  color:  #97a1a1;
+  text-shadow: 2px 5px 2px #17202a;
+}
+
+.apple-bottom {
+  background: url(../img/apple-theme.jpg) no-repeat center; background-size: cover;
+  position: relative;
+  border-top: 5px solid #000;
+}
+
+.apple-bottom:before, .hp-bottom:before, .asus-bottom:before, .lenovo-bottom:before, .hardware:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.hp-bottom {
+  background: url(../img/hp-theme.jpg) no-repeat center; background-size: cover;
+  position: relative;
+  border-top: 5px solid #000;
+}
+
+.asus-bottom {
+  background: url(../img/asus-theme.jpg) no-repeat center; background-size: cover;
+  position: relative;
+  border-top: 5px solid #000;
+}
+
+.lenovo-bottom {
+  background: url(../img/lenovo-theme.jpg) no-repeat center; background-size: cover;
+  position: relative;
+  border-top: 5px solid #000;
+}
+
+.accesories-bottom {
+  background: url(../img/accesories-bottom.jpg) no-repeat center; background-size: cover;
+  position: relative;
+  border-top: 5px solid #000;
+  border-bottom: 10px solid #000;
+}
+
+.hardware {
+  background: url(../img/hard.jpg) no-repeat center; background-size: cover;
+  position: relative;
+  border-top: 5px solid #000;
+}
+
+.accs {
+  margin-top: 50px;
+}
+
+.accs-item {
+  color: #000 !important;
+}
+
+#title1 {
+  color: #24857b;
+  box-shadow: -10px -10px #24857b;
+}
+
+#title2 {
+  color: #001852;
+  box-shadow: -10px -10px #001852;
+}
+
+#title3 {
+  color: #000;
+  box-shadow: -10px -10px #000;
+}
+
+#title4 {
+  color: #C70039;
+  box-shadow: #C70039 0px 0px 0px 3px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(155, 0, 202) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,  #2471a3 20px -20px;
+}
+
+#title5 {
+  color: #d68910;
+  box-shadow: -10px -10px #d68910;
+}
+
+#title6 {
+  color: #581845 ;
+  box-shadow: inset -10px -10px;
+}
+
+.title-3 {
+  margin: 100px auto;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  background-color:  #fff;
+  padding-bottom: 10px;
+}
+
+.fa-angle-double-down:hover, .fa-arrow-circle-down:hover {
+  transition-duration: 1s;
+	transform: translate(0,20px);
+	-webkit-transform: translate(0,20px);
+	-o-transform: translate(0,20px); 
+	-moz-transform: translate(0,20px);
+}
+
+.arrow {
+  color: #fff;
+  text-decoration: none;
+}
+
+.arrow:hover {
+  transition: color;
+  transition-duration: 1s;
+  color: #515a5a;
+}
+
+.fa-arrow-circle-down {
+  color: rgb(22, 22, 22);
+  position: relative;
+  font-family: "Teko", sans-serif;
+  margin: 40px 0 20px 0;
+  left: 50%;
+}
+
+#hp-slide:hover {
+  color:#24857b;
+}
+
+#asus-slide:hover {
+  color: #9e1616;
+}
+
+#lenovo-slide:hover {
+  color: #C70039;
+}
+
+#acc-slide:hover {
+  color: #d68910;
+}
+
+
+#hp-logo {
+  width: 6%;
+}
+
+#asus-logo {
+  width: 18%;
+}
+
+#lenovo-logo {
+  width: 20%;
+}
+
+h2 > #hp-title {
+  font-size: 250%;
+  color:  #fff;
+  text-shadow: 2px 5px 2px #1795e7;
+}
+
+.contact {
+    background-color: #3F3F3F;
+    line-height: 20vh;
+}
+  
+.nav-contact {
+  text-align: center;
+  justify-content: space-around;
+}
+  
+.contact-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  font-size: 230%;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Teko";
+}
+  
+.fa-github, .fa-linkedin, .fa-twitter, .fa-mobile-alt {
+  margin-right: 10px;
+}
+  
+.contact-link:hover {
+  transition: font-size, color;
+  transition-duration: 0.2s;
+  font-size: 250%;
+}
+
+.contact-link:first-child:hover {
+  color: #1b1b1b;
+}
+
+.contact-link:nth-child(2):hover {
+  color: #0e76a8;
+}
+
+.contact-link:nth-child(3):hover {
+  color: #00acee;
+}
+
+.contact-link:nth-child(4):hover {
+  color: #229954;
+}

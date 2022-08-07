@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;500&family=Lobster&family=Press+Start+2P&family=Roboto:wght@500&family=Teko&display=swap');
 
 .nav-link, .navbar-brand {
     text-decoration: none;
@@ -54,7 +51,7 @@ h2 {
   color: #fff;
   font-family: 'Press Start 2P', cursive;
   position: relative;
-  font-size: 190% !important;
+  font-size: 190%;
 }
 
 .header:hover {
@@ -125,15 +122,28 @@ h2 {
 }
 
 #title {
-    font-size: 25px;
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
     margin-right: 5em;
 }
 
 #phone {
-    margin-top: -20px;
-    margin-right: 5px;
+    margin-top: -17px;
+}
+
+.carousel-item{
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000;
+  background-attachment: fixed; 
+}
+
+
+.sub-soft {
+  display: none;
 }
 
 @media (min-width: 1600px){
@@ -172,7 +182,7 @@ h2 {
     }
 
     .team1, .team2 {
-      display: inline-block !important;
+      display: inline-block;
       height: 46vh;
       width: 48.8vw;
       padding-top: 20vh;
@@ -180,23 +190,19 @@ h2 {
 
     .progress {
       width: 80%;
-      background-color: #aaa !important;
-      -webkit-box-shadow: none;
-      box-shadow: none;
     }
 
-    .carousel-item {
-      height: 100vh;
-      min-height: 400px;
-      background: no-repeat center center scroll;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      background-color: #000;
-      background-attachment: fixed; 
+    .row > h2{
+      font-size: 50px;
     }
 
+}
+
+@media (min-width: 1400px) {
+  
+  .title-3 {
+    font-size: 60px;
+  }
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
@@ -225,7 +231,7 @@ h2 {
   }
 
   .container-fluid > .row > h2 {
-    font-size: 220% !important;
+    font-size: 220%;
   }
 
   .card-text {
@@ -233,29 +239,15 @@ h2 {
   }
 
   .carousel-item {
-    font-size: 80% !important;
+    font-size: 80%;
   }
 
   .progress {
     width: 80%;
-    background-color: #aaa !important;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-
-  .carousel-item {
-    height: 100vh;
-    min-height: 400px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #000;
-    background-attachment: fixed; 
   }
   
 }
+
 
 @media (min-width: 1200px) and (max-width: 1399px) {
   .team1, .team2 {
@@ -287,11 +279,11 @@ h2 {
   }
 
   .container-fluid > .row > h2 {
-    font-size: 210% !important;
+    font-size: 210%;
   }
 
   .title-3 {
-    font-size: 210% !important;
+    font-size: 210%;
   }
 
   .card-text {
@@ -299,7 +291,7 @@ h2 {
   }
 
   .carousel-item {
-    font-size: 80% !important;
+    font-size: 80%;
   }
 
   .card-title, .mt-2 > h3 {
@@ -308,45 +300,121 @@ h2 {
 
   .progress {
     width: 90%;
-    background-color: #aaa !important;
-    -webkit-box-shadow: none;
-    box-shadow: none;
   }
 
+}
+
+@media (min-width: 801px) {
+  
   .carousel-item {
-    height: 100vh;
-    min-height: 400px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #000;
-    background-attachment: fixed; 
+    height: 70vh;
+  }
+
+  .sub-soft {
+    display:block;
+  }
+
+  .carousel-inner > .carousel-item > img {
+  
+    width: 100%;
+    height: 100%;
+  }
+
+  #title {
+    font-size: 25px;
+  }
+
+  .title-soft {
+    font-size: 500%;
   }
   
-
 }
 
 @media (width: 810px) {
   
   
   .carousel-item {
-      height: 40vh !important;
-  }
-
-  .ws {
-    height: 450px !important;
+      height: 40vh;
   }
 
   .carousel-caption {
     font-size: 60% ;
   }
+}
+
+@media (max-width: 800px) {
   
-  .sub-soft {
-    display: none;
+  .title-soft {
+    font-size: 20px;
+    margin-top: 90px;
+  }
+
+  .navbar-brand {
+    font-size: 60% !important;
+    margin-top: 15px;
+  }
+
+  .carousel-item {
+    height: 60vh;
+    font-size: 60%;
+  }
+
+  .carousel-inner > .carousel-item > img {
+  
+    width: 80vh;
+    margin-top: 80px;
+  }
+
+  #ccleaner {
+    margin-top: 50px;
+  }
+
+  .nav-contact > a {
+    display: block;
+    font-size: 35px;
+  }
+  
+}
+
+@media (min-width: 500px) {
+
+
+  .hard-card {
+    border-radius: 25px;
+    padding: 5px;
+  }
+  
+  .title-2 {
+    margin: 100px auto;
+    font-size: 60px;
+  }
+
+  .fa-circle-arrow-down {
+    
+    margin: 40px 0 20px 0;
   }
 }
+
+@media (min-width: 1199px) {
+  
+  #hp-logo {
+    width: 6%;
+  }
+  
+  #asus-logo {
+    width: 18%;
+  }
+  
+  #lenovo-logo {
+    width: 20%;
+  }
+
+  .carousel-item {
+    height: 100vh;
+  }
+}
+
+
 
 @media (min-width: 500px) and (max-width: 1199px) {
   .team1, .team2 {
@@ -357,12 +425,12 @@ h2 {
 
   #hp-logo {
 
-    width: 90px !important;
+    width: 90px;
   }
 
   #asus-logo, #lenovo-logo {
 
-    width: 180px !important;
+    width: 180px;
   }
 
   #phone > a {
@@ -387,11 +455,11 @@ h2 {
   }
 
   .container-fluid > .row > h2 {
-    font-size: 190% !important;
+    font-size: 190%;
   }
 
   .title-3 {
-    font-size: 190% !important;
+    font-size: 190%;
   }
 
   .card-text {
@@ -399,7 +467,7 @@ h2 {
   }
 
   .carousel-item {
-    font-size: 70% !important;
+    font-size: 70%;
   }
 
   .card-title, .mt-2 > h3 {
@@ -412,53 +480,7 @@ h2 {
 
   .progress {
     width: 90%;
-    background-color: #aaa !important;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-
-  .carousel-item {
-    height: 100vh;
-    min-height: 400px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #000;
-    background-attachment: fixed; 
-  }
-  
-  
-}
-
-@media (min-width: 370px) and (max-width: 499px) {
-
-  .carousel-item {
-    height: 50vh;
-    font-size: 60% !important;
-  }
-
-  .ws {
-    height: 500px !important;
-  }
-
-  .sub-soft {
-    display: none;
-  }
-
-}
-
-@media (max-width: 369px) {
-
-  .carousel-item {
-    height: 60vh;
-    font-size: 60%;
-  }
-
-  .ws {
-    height: 480px !important;
-  }
+  }  
   
 }
 
@@ -468,20 +490,6 @@ h2 {
     height: 25vh;
     width: 100vw;
     padding-top: 80px;
-  }
-
-  .title-soft {
-    font-size: 20px !important;
-    margin-top: 90px;
-  }
-
-  .sub-soft {
-    display: none;
-  }
-
-  .navbar-brand {
-    font-size: 60% !important;
-    margin-top: 15px;
   }
   
   .navbar-brand > i {
@@ -493,43 +501,38 @@ h2 {
   }
 
   .title-2 {
-    font-size: 190% !important;
-    margin: 45px !important;
+    font-size: 190%;
+    margin: 45px;
   }
 
   .card {
-    margin-bottom: 20px !important;
+    margin-bottom: 20px;
   }
 
   .container-fluid > .row > h2 {
-    font-size: 170% !important;
+    font-size: 170%;
   }
 
   .title-3 {
-    font-size: 170% !important;
+    font-size: 170%;
   }
 
   .card-text {
     font-size: 80%;
   }
 
-  .fa-arrow-circle-down {
-    margin-left: -50px !important;
+  .fa-circle-arrow-down {
+    margin: 40px 0 20px -50px;
   }
 
   #hp-logo {
 
-    width: 90px !important;
+    width: 90px;
   }
 
   #asus-logo, #lenovo-logo {
 
-    width: 180px !important;
-  }
-
-  .nav-contact > a {
-    display: block !important;
-    font-size: 35px !important;
+    width: 180px;
   }
 
   .card-title, .mt-2 > h3 {
@@ -537,7 +540,7 @@ h2 {
     font-size: 90%;
   }
 
-  .col-md-7 > a > *, .col-md-7 > .mt-2{
+  .col-md-7 > a > *, .col-md-7 > .mt-2 {
     font-size: 80%;
     margin-bottom: 5px !important;
     margin-left: 20px;
@@ -546,27 +549,26 @@ h2 {
   .progress {
     width: 80%;
     margin-left: 10px ;
-    background-color: #aaa !important;
     -webkit-box-shadow: none;
     box-shadow: none;
   }
 
   #apple-title, #asus-title, #lenovo-title, #hp-title {
-    font-size: 50px !important;
+    font-size: 50px;
   }  
   
   .container-fluid > .row > h2{
-    font-size: 22px !important;
+    font-size: 22px;
     text-shadow: 2px 2px 2px #000;
   }
 
 }
 
+.progress {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}  
 
-
-.card {
-  border: 1px !important;
-}
 
 b {
   font-size: 150%;
@@ -576,15 +578,11 @@ b {
   text-align: justify;
 }
 
-.hard-card {
-  border-radius: 25px !important;
-}
 
 
 .btn {
   font-style: italic;
   position: relative;
-  color: #fff !important;
 }
 
 .card:hover:before {
@@ -604,8 +602,6 @@ b {
 }
 
 .title-2 {
-  margin: 100px auto;
-  font-size: 60px;
   text-align: center;
   color: #C70039;
   font-weight: bold;
@@ -654,8 +650,7 @@ b {
 }
 
 .title-soft {
-  font-size: 500%;
-  margin-bottom: 250px;
+  margin-bottom: 150px;
 }
 
 .sub-soft {
@@ -664,18 +659,12 @@ b {
   text-align: center;
 }
 
-.btn-soft {
+.btn-soft, .btn-avast {
   margin-bottom: 20px;
-  font-style: normal;
-  font-weight: bold !important;
 }
 
 .btn-avast {
-  margin-bottom: 20px;
   margin-right: 15px;
-  font-style: normal;
-  font-weight: bold !important;
-  color: #000 !important;
 }
 
 .software {
@@ -714,7 +703,6 @@ b {
   left: 50%;
   transform: translate(-50%,-50%);
   max-width: 95%;
-  font-size: 50px !important;
   text-shadow: 2px 2px 2px #000;
 }
 
@@ -775,10 +763,6 @@ h2 > #apple-title {
   margin-top: 50px;
 }
 
-.accs-item {
-  color: #000 !important;
-}
-
 #title1 {
   color: #24857b;
   box-shadow: -10px -10px #24857b;
@@ -811,7 +795,6 @@ h2 > #apple-title {
 
 .title-3 {
   margin: 100px auto;
-  font-size: 60px;
   text-align: center;
   position: relative;
   font-weight: bold;
@@ -820,7 +803,7 @@ h2 > #apple-title {
   padding-bottom: 10px;
 }
 
-.fa-angle-double-down:hover, .fa-arrow-circle-down:hover {
+.fa-angle-double-down:hover, .fa-circle-arrow-down:hover {
   transition-duration: 1s;
 	transform: translate(0,20px);
 	-webkit-transform: translate(0,20px);
@@ -839,11 +822,10 @@ h2 > #apple-title {
   color: #515a5a;
 }
 
-.fa-arrow-circle-down {
+.fa-circle-arrow-down {
   color: rgb(22, 22, 22);
   position: relative;
   font-family: "Teko", sans-serif;
-  margin: 40px 0 20px 0;
   left: 50%;
 }
 
@@ -861,19 +843,6 @@ h2 > #apple-title {
 
 #acc-slide:hover {
   color: #d68910;
-}
-
-
-#hp-logo {
-  width: 6%;
-}
-
-#asus-logo {
-  width: 18%;
-}
-
-#lenovo-logo {
-  width: 20%;
 }
 
 h2 > #hp-title {
